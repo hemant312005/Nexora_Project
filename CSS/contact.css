@@ -1,0 +1,38 @@
+.section1
+{
+    .maindiv {
+    background: linear-gradient(#111A43);
+    text-align: center;
+    padding: 130px 20px 75px;
+    color: white;
+}
+
+.maindiv h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.maindiv p {
+    color: #aab7d5;
+}
+
+.maindiv a {
+    color: #aab7d5;
+    text-decoration: none;
+}
+
+.maindiv span {
+    color: #2160ff;
+}
+}
+.section1{
+    .maindiv
+    {
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column;
+        column-gap: 50px;
+
+    }
+}
