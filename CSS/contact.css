@@ -25,14 +25,17 @@
     color: #2160ff;
 }
 }
-.section1{
+.section2{
     .maindiv
     {
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-between;
-        flex-direction:column;
-        column-gap: 50px;
+        display:flex;
+        flex-direction:row;
+        column-gap: 10px;
+        padding:20px;
+       .card{
+        align-items: center;
+        
+       }
 
     }
 }
